@@ -1,13 +1,32 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "express": "3.4.5",
-    "ejs": "*",
-    "exec-sync": "*"
-  }
+    "name": "webpinger",
+    "description": "A simple network latency checker",
+    "version": "0.0.1",
+    "main": "webpinger",
+    "bin": {
+        "webpinger": "webpinger-cli"
+    },
+    "dependencies": {
+        "express": "3.4.5",
+        "ejs": "*",
+        "exec-sync": "*",
+        "ejs-locals": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rixrix/webpinger-nodejs"
+    },
+    "keywords": [
+        "ping",
+        "network",
+        "latency"
+    ],
+    "engines": {
+        "node": ">=0.6.0"
+    },
+    "author": "Richard Sentino",
+    "license": "BSD",
+    "bugs": {
+        "url": "https://github.com/rixrix/webpinger-nodejs/issues"
+    }
 }
