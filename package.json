@@ -1,7 +1,7 @@
 {
     "name": "webpinger",
     "description": "A simple network latency checker",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "webpinger",
     "bin": {
         "webpinger": "webpinger-cli"
@@ -24,7 +24,10 @@
     "engines": {
         "node": ">=0.6.0"
     },
-    "author": "Richard Sentino",
+    "author": {
+        "name": "Richard Sentino",
+        "email": "richard@mindginative.com"
+    },
     "license": "BSD",
     "bugs": {
         "url": "https://github.com/rixrix/webpinger-nodejs/issues"
